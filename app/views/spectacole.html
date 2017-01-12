@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+  <body>
+       
+            <div class="row">
+                <div class="col-md-12">
+                    
+                        <br/>
+                        <h3>Spectacole</h3>
+                        <table id="spectacles" class="table table-bordered table-striped">
+                            <thead>
+                                <th>Titlul</th></th>
+                                <th>Descrierea</th>
+                            </thead>
+                           <tr ng-repeat="s in Spectacles">
+                                 <td style="margin-left:0">{{s.denomination}}</td>
+                                 <td style="margin-left:0">{{s.description}} </td></tr>
+                      </table>
+                </div>
+            </div>
+  </body>
+    </html>

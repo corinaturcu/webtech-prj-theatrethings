@@ -1,0 +1,54 @@
+.nav{
+
+     font-family: cursive ;
+}
+
+h1 {
+ color: #993366 ;
+ font-size: 60px;
+ padding: 20px 0;
+   line-height: 50px;
+   width: 50%;
+   font-family: cursive;
+}
+
+#despre {
+ color: #993366 ;
+ font-size: 20px;
+ margin: 0 0 40px 0;
+ padding: 20px 0;
+ font-family: cursive;
+}
+
+h2 {
+ color:  #993366 ;
+ font-size:50px;
+ padding: 20px 0;
+   line-height: 50px;
+   width: 50%;
+   font-family: cursive;
+}
+
+h3 {
+ color:  #993366 ;
+ font-size:50px;
+ padding: 20px 0;
+   line-height: 50px;
+   width: 50%;
+   font-family: cursive;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    height: 50px;
+    text-align: center;
+    color:#4d0019;
+}
+td{
+ text-align: center;
+ color: #990033;
+}
+

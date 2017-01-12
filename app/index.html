@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="design.css"/>
+    </head>
+    
+    <body>
+        <div class="container" ng-app="TheatreThings">
+          <h1>Theatre Things</h1>
+            <div class="row">
+           <div class="col-md-3">
+                <ul class="nav nav-stacked">
+                    <li><a href="#/despre">Despre</a></li>
+                    <li><a href="#/actori">Actori</a></li>
+                    <li><a href="#/spectacole">Spectacole</a></li>
+                    <li><a href="#/distributii">Distributii</a></li>
+                </ul>
+               
+                </div>
+                 <div class="col-md-9"> 
+                <div ui-view></div>
+            </div>
+           
+            
+            <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        
+       
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <!-- angular -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js"></script>
+        <script type="text/javascript" src="https://code.angularjs.org/1.5.6/angular-route.min.js"></script>
+        
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/controllers/ShowActorsController.js"></script>
+        <script type="text/javascript" src="js/controllers/ShowDistributionController.js"></script>
+        <script type="text/javascript" src="js/controllers/ShowSpectaclesController.js"></script>
+        </body>
+</html>
